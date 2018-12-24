@@ -1,6 +1,44 @@
-@import 'core/settings';
+* {
+  box-sizing: border-box;
+}
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
+.body {
+  margin: 0;
+  color: #000;
+  background-color: #eccc68;
+  height: 100vh;
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*label*/
+
+.label{
+  margin: 10px;
+}
+
+/* mood face */
+
+.mood__face {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+/* mood theme */
+
+.theme-green {
+  background-color: #1dd1a1;
+}
+
+.theme-yellow {
+  background-color: #eccc68;
+}
+
+.mood__control {
+  margin: 5px;
 }
