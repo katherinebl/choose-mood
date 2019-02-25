@@ -12,18 +12,27 @@
     </head>
     
     <body class="body">
-         <h1 class="mood__face">:)</h1>
+        <header class="page__header">
+             <h1 class="title__header">How are you today?</h1>
 
-        <form></form>
-        <label class="label" for="choose-mood">Choose your mood</label>
-        <div class="mood__controls">
-            <select class="mood__control mood__control--choose" id="choose-mood">
-                <option value=":)" class="happy">:)</option>
-                <option value=":(" class="sad">:(</option>
-            </select>
-            <button class="mood__control mood__control--update" type="submit">Update!</button>
-        </div>
-        </form>
+        </header>
+        <main class="page__main">
+             <h1 class="mood__face">:)</h1>
+
+            <form>
+                <label class="label" for="choose-mood">Choose your mood</label>
+                <div class="mood__controls">
+                    <select class="mood__control mood__control--choose" id="choose-mood">
+                        <option value=":)" class="happy">:)</option>
+                        <option value=":(" class="sad">:(</option>
+                    </select>
+                    <button class="mood__control mood__control--update" type="submit">Update!</button>
+                </div>
+            </form>
+        </main>
+        <footer class="page__footer">
+            <p class="text__footer">© Katherine Briceño | Adalab 2019</p>
+        </footer>
         <script type="text/javascript" src="assets/js/main.js"></script>
     </body>
 
