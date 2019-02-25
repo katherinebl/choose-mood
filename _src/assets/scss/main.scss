@@ -7,6 +7,22 @@
   color: #000;
   background-color: #eccc68;
   height: 100vh;
+}
+
+.page__header {
+  width: 100vw;
+  font-family: 'Work Sans', sans-serif;
+  font-size:18px;
+  text-align: center;
+  background-color: #e84393;
+}
+
+.title__header {
+  margin: 0;
+  padding: 2%;
+}
+
+.page__main {
   display: flex;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;

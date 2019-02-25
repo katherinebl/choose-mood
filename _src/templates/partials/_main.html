@@ -1,1 +1,13 @@
-<main class="page__main">@@label</main>
+<main class="page__main">
+  <h1 class="mood__face">:)</h1>
+  <form>
+    <label class="label" for="choose-mood">Choose your mood</label>
+    <div class="mood__controls">
+        <select class="mood__control mood__control--choose" id="choose-mood">
+                <option value=":)" class="happy">:)</option>
+                <option value=":(" class="sad">:(</option>
+        </select>
+        <button class="mood__control mood__control--update" type="submit">Update!</button>
+    </div>
+  </form>
+</main>
