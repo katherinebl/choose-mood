@@ -9,12 +9,16 @@
   height: 100%;
 }
 
+//Header
 .page__header {
   width: 100vw;
   font-family: 'Poppins', sans-serif;
-  font-size:18px;
+  font-size: 14px;
   text-align: center;
   background-color: #e84393;
+  @media all and (min-width: 768px){
+    font-size: 18px;
+  }
 }
 
 .title__header {
@@ -22,6 +26,7 @@
   padding: 2%;
 }
 
+//Main
 .page__main {
   height: 80vh;
   display: flex;
@@ -34,20 +39,17 @@
 }
 
 /*label*/
-
 .label{
   margin: 0;
 }
 
 /* mood face */
-
 .mood__face {
   font-size: 80px;
   font-weight: 700;
 }
 
 /* mood theme */
-
 .theme-green {
   background-color: #1dd1a1;
 }
@@ -61,7 +63,6 @@
 }
 
 //Footer
-
 .page__footer {
   width: 100vw;
   font-family: 'Poppins', sans-serif;
